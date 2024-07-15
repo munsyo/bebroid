@@ -1,0 +1,389 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    background-color: rgb(0, 25, 53);
+    width: 100vw;
+    overflow-y: hidden;
+}
+
+.morrisey{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+
+.a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+.imgh{
+    width: 50px;
+    background-image: url(./IMGS/еуы.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bebra{
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+
+}
+
+.but{
+    width: 120px;
+    height: 20px;
+    margin-top: 20px;
+    background-color: rgb(0, 132, 165);
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    
+}
+
+.h2{
+    font-size: 10px;
+}
+.main{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 100vw;
+   gap: 100px;
+   background-color: rgb(0, 25, 53);
+}
+
+.article1{
+    margin-top: 50px;
+    display: flex;
+    align-self: center;
+    width: 80vw;
+    height: 50vh;    
+    justify-content: center;
+    
+}
+
+.h1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+
+.h3{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.img1{
+    width: 100%;
+    height:  50vh;
+    background-size: cover;
+    
+}
+
+.div1{
+    width:  80%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./IMGS/Staying-in-the-flow.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.5;
+    
+    
+    
+}
+
+.article2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img3{
+    width: 20vw;
+    height: 47vh;
+    border-radius: 5px;
+    background-image: url(./IMGS/drakaaaa.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.div2{
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.ukrep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.div3{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.b{
+        width: 20vw;
+        height: 23vh;
+        gap: 5px;
+        border-radius: 5px;
+        background-image: url(./IMGS/drakaaaa.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+}
+
+.article3{
+    display: flex;
+    align-self: center;
+    width: 80vw;
+    height: 50vh;    
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.div4{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.otz1{
+    width: 320px;
+    height: 180px;
+    background-color: rgb(0, 132, 165);
+    opacity: 0.5;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.ot{
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+.ott{
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.otz2{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(0, 132, 165);
+    border-radius: 10px;
+}
+
+.dott{
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+.pol{
+    padding-top: 30px;
+    display: flex;
+    gap: 5px;
+}
+
+.article4{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 80vw;
+    height: 90vh;    
+    justify-content: center;
+   align-items: center;
+}
+
+.div5{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text{
+    color: white;
+    width: 300px;
+    height: 220px;
+}
+
+.ab1{
+    font-size: 10px;
+    color: rgb(226, 223, 223);
+}
+
+.abim{
+    background-image: url(./IMGS/Screenshot_50.png);
+    width: 300px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.div5-1{
+    display: flex;
+    gap: 50px;
+}
+
+.article5{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 80vw;
+    height: 60vh;    
+    justify-content: center;
+   align-items: center;
+}
+
+.div6{
+    padding-top: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+.price{
+    padding-top: 40px;
+    display: flex;
+    color: white;
+    gap: 20px;
+    font-size: 8px;
+}
+
+.uslugi{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.ceniki{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.sert{
+    width: 300px;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./IMGS/Screenshot_1.png);
+    border-radius: 10px;
+}
+
+.kart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+   
+}
+
+.article6{
+    display: flex;
+    align-self: center;
+    width: 80vw;
+    height: 80vh;    
+    justify-content: center;
+   align-items: center;
+   gap: 50px;
+}
+
+
+.div7{
+    width: 600px;
+    height: 500px;
+    background-image: url(./IMGS/Screenshot_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.div8{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.adress1{
+    width: 300px;
+    height: 230px;
+    background-image: url(./IMGS/Screenshot_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.adress2{
+    width: 300px;
+    height: 230px;
+    background-image: url(./IMGS/Screenshot_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.footer{
+    display: flex;
+    height: 10vh;
+    background-color: rgb(0, 25, 53);
+    width: 100vw;
+    overflow-y: hidden;
+    font-size: 5px;
+    justify-content: center;
+}
+
+.morisey1{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    width: 75%;
+    height: 100%;
+    overflow-y: hidden;
+}
